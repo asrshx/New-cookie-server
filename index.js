@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
-const PORT = 3000;
+const PORT = 8080;
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
